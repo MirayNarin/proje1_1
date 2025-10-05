@@ -1,7 +1,7 @@
-// Haberleri üretmek için aşağıdaki data objesini kullanacağız. Önce inceleyin sonra 43. satıra geçin.
+
 const data = [
   {
-    baslik: 'Workintech Teknoloji üretecek gençler yetiştiriyor',
+    baslik: 'Teknoloji üretecek gençler yetiştiriyor',
     tarih: '11 Kasım 2022',
     ilkParagraf: `Yazılım ön bilgisi olmayan üniversitelileri 6 ayda dünyanın en iyi şirketlerine girecek seviyede yetiştiren Workintech, 3 yılda 5 bin yazılımcıyı sektöre kazandıracak. Öğrenciler kurs ücretini işe yerleşince ödeyecek.`,
 
@@ -39,29 +39,6 @@ const data = [
   },
 ];
 
-/*
-Adım 1: Haber oluşturmak için 'HaberYapici' adında bir bileşen(component) oluşturun.
-Bileşeniniz, bir haber nesnesini argüman olarak alan bir fonksiyon olacak,
-ve aşağıdaki gibi görünen bir DOM düğümü oluşturup geri dönecek:
-
-<div class="article">
-  <h2>{haber başlığı}</h2>
-  <p class="tarih">{haber tarihi}</p>
-
-  {üç ayrı paragraf elementi}
-
-  <button class="expandButton">+</button>
-</div>
-
-Adım 2: Hala `HaberYapici` fonksiyonu içindeyiz, button.expandButton 'a bir click event listener ekleyin.
-Bu listener div.article öğesine 'article-open' class'ını ekleyip/çıkaracak(toggle).
-
-Adım 3: Fonksiyonunuzdan bir öğe döndürmeyi unutmayın.
 
 
-Adım 4: Fonksiyonunuzun dışında, tüm haberleri içeren datayı döngüye sokun(loop). 
-Yazdığınız 'HaberYapici' component'ini kullanarak bir div.article öğesi oluşturun ve bunu DOM'daki div.articles düğümüne ekleyin. (bknz. index.html).
 
-
-Adım 5: Yukarıdaki haberleri için data isimli diziye bulduğunuz bir teknoloji haberini eklemeyi deneyin. Diğer haber objeleri ile aynı yapıda olmasına dikkat edin.
-*/
