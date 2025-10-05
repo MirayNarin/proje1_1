@@ -1,29 +1,4 @@
-/*
-  Adım 1: Aşağıdaki HTML yapısını Card componenti için oluşturacak 'card' isimli bir fonksiyon yazın.
 
-      <div class="card">
-        <img src="{imgURL}" />
-        <h2>{header}</h2>
-        <hr />
-        <div class="card-content">
-          <p>
-            {paragraph}
-          </p>
-          <a href="{navigationURL}">Devamı...</a>
-        </div>
-      </div>
-
-  'card' fonksiyonu 4 argüman alacak: 
-  - imgURL: card içinde gösterilecek img URL bilgisi
-  - header: card başlığı
-  - paragraph: card açıklama metni
-  - navigationURL: Devamı linkinin yönlendireceği URL
-
-  Adım 2: Bu fonksiyonu kullanarak cardList arrayindeki herbir kayıt için bir tane card componenti oluşturun: 
-
-  Adım 3: Oluşturduğunuz card componentlerini div.container içerisine ekleyin
-
-*/
 
 const cardDataList = [
   {
